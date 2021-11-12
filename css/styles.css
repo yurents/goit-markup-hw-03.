@@ -75,11 +75,32 @@ body {
 }
 
 /*                       HEADER                 */
+.header {
+  background-color: #ffffff;
+}
+
+.header-list {
+  display: flex;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
+  margin-right: 70px;
   color: #2196f3;
 }
 .header-web-logo {
   color: #000000;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-link {
@@ -109,6 +130,7 @@ body {
 }
 
 .header-tel {
+  margin-left: 50px;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -119,6 +141,9 @@ body {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+}
+.header-conect {
+  margin-left: auto;
 }
 
 /*                 HERO             */
