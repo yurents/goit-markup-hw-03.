@@ -155,6 +155,7 @@ body {
 
 /*                 HERO             */
 
+/* MAIN SECTION */
 .main-hero-section {
   background-color: #2f303a;
   display: flex;
@@ -194,6 +195,26 @@ body {
 .hero-btn:focus {
   color: var(--accent-color);
 }
+/* HERO SECTION */
+
+.hero-list {
+  display: flex;
+}
+
+.hero-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.hero-after-title {
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.hero-title-description {
+  width: 270px;
+  margin-right: 30px;
+}
+
 .hero-after-title {
   font-weight: 700;
   font-size: 14px;
