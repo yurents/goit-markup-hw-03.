@@ -220,6 +220,9 @@ img {
 .hero-title-description {
   width: 270px;
 }
+.hero-section {
+  padding-top: 94px;
+}
 
 .hero-after-title {
   font-weight: 700;
@@ -376,7 +379,7 @@ img {
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filters-item:not(:last-child) {
   margin-right: 8px;
